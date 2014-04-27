@@ -123,7 +123,4 @@
 @AneelaNadar tweeted: coord: None  tweettime: Sun Apr 27 17:34:45 +0000 2014 tweetget None tweetloction 
 @rkhuria tweeted: coord: None  tweettime: Sun Apr 27 17:34:44 +0000 2014 tweetget None tweetloction Mumbai
 @DigvijaySingh__ tweeted: coord: None  tweettime: Sun Apr 27 17:34:44 +0000 2014 tweetget None tweetloction New Delhi
-Traceback (most recent call last):
-  File "stream2.py", line 22, in <module>
-    print( '@%s tweeted: coord: %s  tweettime: %s tweetget %s tweetloction %s' % ( tweet['user']['screen_name'], tweet['coordinates'], tweet['created_at'],tweet['geo'], tweet['user']['location'] ) )
-UnicodeEncodeError: 'ascii' codec can't encode characters in position 111-112: ordinal not in range(128)
+
